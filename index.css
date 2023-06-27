@@ -1,0 +1,216 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 80%;
+    /*background-color: rgba(0,0,255,1)*/
+}
+
+.header {
+    background: url(https://pagemaker.b-cdn.net/media/35336/1600x971.png);
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    background-size: cover;
+    padding-bottom: 30px;
+    background-color: rgba(249,254,230,0.4);
+}
+
+.logo{
+    width: 100px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info button {
+    background: rgba(0,53,18,1);
+    border: 0px;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 20px;
+}
+
+.content {
+    display: flex;
+    padding-top: 20px;
+
+}
+
+.content>div {
+    width: 50%;
+}
+
+.man {
+    width:  100%;
+}
+
+.description { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description h1 { 
+    color: rgba(0,53,18,1);
+    font-size: 50px;
+    padding: 20px 0px;
+}
+
+.description .des{
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+.btnHire {
+    background: rgba(210,250,82,1);
+    border: 0px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.btnSee {
+    background: rgba(210,250,82,1);
+    border: 0px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    background: white;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.tag {
+    width: 150px;
+    filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.1));
+    position: absolute;
+    top: 0px;
+    left: -80px;
+}
+
+.imgContent{
+    position: relative;
+}
+
+.sponsors{
+    background-size: cover;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 0px;
+    width: 80%;
+    padding-left: 5%;
+    
+}
+
+.sponsors img {
+    height: 50px;
+    padding-left: 9%;
+}
+
+
+.sec-content{
+    display: flex;
+    justify-content: center;
+    padding: 50px, 0px;
+    background-color:rgba(249,254,230,0.4);
+}
+
+.sec-detail{
+    display: flex;
+}
+
+.col1{
+    width: 50%
+}
+
+.col1 img {
+    width:100%;
+}
+.col2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px
+}
+
+.col2 h1 {
+    color: rgba(0,53,18,1);
+    font-size: 50px;
+}
+
+.col2 > p{
+    font-size: 19px;
+    padding-top: 20px;
+}
+
+.smallcontent{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.smallcontent span{
+    background: rgba(210, 250, 82, 1);
+    padding: 2px 7px;
+    border-radius: 100px;
+}
+
+.smallcontent p{
+    padding-left: 10px;
+}
+.service{
+    display: flex;
+    justify-content: center;
+}
+
+.pos1{
+    display: flex;
+    align-items: center;
+}
+
+.pos1 h1{
+    width: 40%;
+}
+
+.pos1 p{
+    width: 60%;
+    padding-right: 20%;
+    box-sizing: border-box;
+    padding: 50px 0px 30px;
+}
+
+.pos2{
+    display: flex;
+    gap:20px
+}
+
+.pos2>div{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(249, 254, 230, 1);
+    padding:40px
+}
+
+.pos2>div svg{
+    width: 100%;
+    
+}
+
+.pos3{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 30px;
+}
